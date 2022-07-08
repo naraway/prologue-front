@@ -1,0 +1,89 @@
+{
+  "name": "@nara/prologue",
+  "version": "3.2.0",
+  "description": "Nara Prologue",
+  "author": "Nextree",
+  "license": "UNLICENSED",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    }
+  },
+  "types": "./dist/@types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -s public",
+    "build": "vite build && ttsc -p src/lib/tsconfig.json",
+    "publish-local": "yarn build && yarn publish --prerelease",
+    "lint": "eslint '*/**/*.{ts,tsx,js,jsx}'",
+    "lint-fix": "eslint --fix '*/**/*.{ts,tsx,js,jsx}'"
+  },
+  "dependencies": {
+    "loglevel": "^1.8.0",
+    "sourcemapped-stacktrace": "^1.1.11",
+    "universal-cookie": "^4.0.4"
+  },
+  "peerDependencies": {
+    "@nara/accent": "^3.2.0",
+    "axios": "^0.26.1",
+    "mobx": "^6.5.0",
+    "mobx-react": "^7.3.0",
+    "moment": "^2.29.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@nara/accent": "^3.2.0",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/react": "^6.4.22",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "@vitejs/plugin-react": "^1.3.1",
+    "axios": "^0.26.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-only-warn": "^1.0.3",
+    "eslint-plugin-react": "^7.29.4",
+    "mobx": "^6.5.0",
+    "mobx-react": "^7.3.0",
+    "moment": "^2.29.1",
+    "npm-check-updates": "^12.3.1",
+    "raw-loader": "^4.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-styles": "^4.0.0",
+    "storybook-addon-turbo-build": "^1.1.0",
+    "storybook-builder-vite": "^0.1.16",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.6.3",
+    "typescript-transform-paths": "^3.3.1",
+    "vite": "^2.9.5",
+    "vite-tsconfig-paths": "^3.4.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
