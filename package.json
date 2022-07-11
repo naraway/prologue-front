@@ -1,9 +1,27 @@
 {
-  "name": "@nara/prologue",
+  "name": "@nara-way/prologue",
   "version": "3.2.0",
-  "description": "Nara Prologue",
-  "author": "Nextree",
-  "license": "UNLICENSED",
+  "description": "Nara Way Prologue",
+  "keywords": [
+    "nara",
+    "naraway",
+    "prologue"
+  ],
+  "author": "Nara Way <naraway@nextree.io> (http://naraway.io)",
+  "homepage": "https://naraway.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naraway/prologue-front.git",
+    "web": "https://github.com/naraway/prologue-front"
+  },
+  "license": {
+    "type": "Apache-2.0",
+    "url": "https://opensource.org/licenses/apache2.0.php"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
   "exports": {
@@ -30,7 +48,7 @@
     "universal-cookie": "^4.0.4"
   },
   "peerDependencies": {
-    "@nara/accent": "^3.2.0",
+    "@nara-way/accent": "^3.2.0",
     "axios": "^0.26.1",
     "mobx": "^6.5.0",
     "mobx-react": "^7.3.0",
@@ -39,7 +57,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "@nara/accent": "^3.2.0",
+    "@nara-way/accent": "^3.2.0",
     "@rollup/plugin-typescript": "^8.3.2",
     "@storybook/addon-actions": "^6.4.22",
     "@storybook/addon-essentials": "^6.4.22",
