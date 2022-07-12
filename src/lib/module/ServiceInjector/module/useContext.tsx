@@ -1,4 +1,4 @@
-import { Constructor, IReactComponent, IWrappedReactComponent } from '@nara/accent';
+import { Constructor, IReactComponent, IWrappedReactComponent } from '@nara-way/accent';
 import React, { Component, ContextType } from 'react';
 import reactUtils from '../../reactUtils';
 import ServiceInjectorContext from '../context/ServiceInjectorContext';

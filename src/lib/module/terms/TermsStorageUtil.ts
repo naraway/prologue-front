@@ -1,4 +1,4 @@
-import { NotInstantiatedException } from '@nara/accent';
+import { NotInstantiatedException } from '@nara-way/accent';
 import { TermType } from './dictionary';
 
 

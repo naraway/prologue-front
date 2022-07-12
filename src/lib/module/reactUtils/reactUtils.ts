@@ -1,4 +1,4 @@
-import { IReactComponent, IWrappedReactComponent } from '@nara/accent';
+import { IReactComponent, IWrappedReactComponent } from '@nara-way/accent';
 import hoistNonReactStatic from 'hoist-non-react-statics';
 
 

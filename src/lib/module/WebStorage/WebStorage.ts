@@ -1,4 +1,4 @@
-import { InvalidParamsException } from '@nara/accent';
+import { InvalidParamsException } from '@nara-way/accent';
 import CookieStorage from './CookieStorage';
 
 

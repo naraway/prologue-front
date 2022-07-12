@@ -42,7 +42,7 @@ class LocalFileSelectorContainer extends ReactComponent<Props> {
     if (!fileUtil.validateExtension(file, extensionWhitelist)) {
       dialogUtil.alert({
         title: 'Invalid File Type',
-        message: '등록 불가능한 확장자의 파일입니다.',
+        message: 'Not a file has invalid extension.',
       });
 
       return;
@@ -51,7 +51,7 @@ class LocalFileSelectorContainer extends ReactComponent<Props> {
     if (uploadDirect) {
       dialogUtil.confirm({
         title: 'File Upload',
-        message: '파일을 업로드하시겠습니까?',
+        message: 'Are you sure upload file?',
       }).then((result) => {
         if (result) {
           this._uploadFile(file)

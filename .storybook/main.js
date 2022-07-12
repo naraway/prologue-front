@@ -25,7 +25,7 @@ module.exports = ({
       plugins: [],
       resolve: {
         alias: {
-          '@nara/prologue': path.resolve(__dirname, '../src/lib'),
+          '@nara-way/prologue': path.resolve(__dirname, '../src/lib'),
           '~': path.resolve(__dirname, '../src'),
         }
       },

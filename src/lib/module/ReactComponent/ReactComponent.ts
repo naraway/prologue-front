@@ -1,10 +1,10 @@
-import { NaraException } from '@nara/accent';
+import { NaraException } from '@nara-way/accent';
 import { Component } from 'react';
 
 
 /**
- * React.Component를 확장 한 React base 컴포넌트 입니다.
- * 클래스 유형 컴포넌트에 extends 하여 사용합니다.
+ * Base component extended from React.Component.
+ * This used for class based component.
  */
 class ReactComponent<Props = {}, State = {}, InjectedProps = {}> extends Component<Props, State> {
   //

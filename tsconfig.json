@@ -28,7 +28,7 @@
     "useDefineForClassFields": true,
     "paths": {
       "~/*": ["*"],
-      "@nara/prologue": ["lib"]
+      "@nara-way/prologue": ["lib"]
     },
     "plugins": [{
       "transform": "typescript-transform-paths",

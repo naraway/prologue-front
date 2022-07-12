@@ -1,4 +1,4 @@
-import { ApiException, FailureMessage, InvalidParamsException, OffsetElementList } from '@nara/accent';
+import { ApiException, FailureMessage, InvalidParamsException, OffsetElementList } from '@nara-way/accent';
 import { AxiosResponse, Method } from 'axios';
 import { axiosApi } from '../axiosApi';
 import { RequestConfigType, SingleDataType, SingleResponseType, VoidableSingleDataType } from './model';

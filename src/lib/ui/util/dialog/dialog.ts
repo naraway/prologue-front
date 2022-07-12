@@ -1,11 +1,11 @@
-import { InvalidParamsException } from '@nara/accent';
+import { InvalidParamsException } from '@nara-way/accent';
 import { DialogButtonModel, DialogModel, DialogOptionsModel } from './model';
 import DialogService from './service/DialogService';
 
 
 const defaultValue = {
-  confirmButtonText: '확인',
-  cancelButtonText: '취소',
+  confirmButtonText: 'OK',
+  cancelButtonText: 'Cancel',
 };
 
 type DialogObjectType = DialogOptionsModel & {
