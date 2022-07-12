@@ -1,4 +1,4 @@
-import { FailureMessage } from '@nara/accent';
+import { FailureMessage } from '@nara-way/accent';
 
 const exceptionUtils = {
   //

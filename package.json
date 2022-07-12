@@ -1,6 +1,6 @@
 {
   "name": "@nara-way/prologue",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "description": "Nara Way Prologue",
   "keywords": [
     "nara",
@@ -43,6 +43,7 @@
     "lint-fix": "eslint --fix '*/**/*.{ts,tsx,js,jsx}'"
   },
   "dependencies": {
+    "hoist-non-react-statics": "^3.3.2",
     "loglevel": "^1.8.0",
     "sourcemapped-stacktrace": "^1.1.11",
     "universal-cookie": "^4.0.4"

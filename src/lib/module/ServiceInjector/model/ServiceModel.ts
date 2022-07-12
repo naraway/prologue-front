@@ -1,4 +1,4 @@
-import { Constructor, TypeException } from '@nara/accent';
+import { Constructor, TypeException } from '@nara-way/accent';
 import { runInAction } from 'mobx';
 
 

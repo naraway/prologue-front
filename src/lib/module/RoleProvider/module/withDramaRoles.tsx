@@ -1,4 +1,4 @@
-import { IReactComponent, IWrappedReactComponent } from '@nara/accent';
+import { IReactComponent, IWrappedReactComponent } from '@nara-way/accent';
 import React, { Component, ContextType } from 'react';
 import reactUtils from '../../reactUtils';
 import { RoleContext } from '../RoleProvider';

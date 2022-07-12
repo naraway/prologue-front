@@ -18,7 +18,7 @@ const validationUtils = {
       const attr = object[key];
 
       if (attr === null || attr === undefined || (typeof attr === 'string' && attr === '')) {
-        throw new Error('CdoException - ' + key + ' is required');
+        throw new Error('CdoException - ' + (key as string) + ' is required');
       }
 
       objectWithNonNullParams[key] = attr as T[K];

@@ -1,4 +1,4 @@
-import { Constructor } from '@nara/accent';
+import { Constructor } from '@nara-way/accent';
 import ServiceModel from './ServiceModel';
 
 

@@ -1,4 +1,4 @@
-import { Constructor } from '@nara/accent';
+import { Constructor } from '@nara-way/accent';
 
 
 type SingleDataType<T> =

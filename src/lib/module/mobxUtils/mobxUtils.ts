@@ -1,4 +1,4 @@
-import { Constructor, NaraException } from '@nara/accent';
+import { Constructor, NaraException } from '@nara-way/accent';
 
 
 const mobxUtils = {
