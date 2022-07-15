@@ -1,61 +1,18 @@
-# prologue-front
+# Nara Way prologue module
 
-- [1. Storybook](#1-storybook)
-- [2. Build](#2-build)
-- [3. ES lint](#3-es-lint)
+The prologue module provides a basic module and types to develope drama on [Nara Way](https://github.com/naraway).
 
---- 
+For a detailed usage or guide document, please see [Nara Way](https://github.com/naraway).
 
-> It is a library project that defines the Nara Way drama front.  
-> It is a project that based on Nara Way and consists of `vite` and `storybook` modules.  
-> Nara Way drama's `api`, `statekeeper`, and `view` are located under `lib`.
+## Installation
 
-## 1. Storybook
-
-`storybook`, `build-storybook`
-
-> Start a storybook for testing accent component locally.  
-> Or build a storybook for deployment to a server.
-
-```shell
-# storybook
-npm run storybook
-# or
-yarn storybook
-
-# build storybook
-npm run build-storybook
-# or
-yarn storbuild-storybookybook
+```bash
+npm install @nara-way/prologue
 ```
 
-## 2. Build
+## Getting more help
 
-`build`
+Visit the Nara Way page to get more information about the library:  
+[https://github.com/naraway/prologue-front](https://github.com/naraway/prologue-front)
 
-> Build as front library module.
-
-```shell
-# build
-npm run build
-# or
-yarn build
-```
-
-## 3. ES lint
-
-`lint`, `lint-fix`
-
-> Check and fix the code based on ESLint.
-
-```shell
-# lint check
-npm run lint
-# or
-yarn lint
-
-# lint fix
-npm run lint-fix
-# or
-yarn lint-fix
-```
+You can ask any question about Nara Way using the [Github Nara Way Page](https://github.com/naraway).
