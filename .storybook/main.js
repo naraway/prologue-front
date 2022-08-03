@@ -12,7 +12,11 @@ module.exports = ({
   ],
   framework: '@storybook/react',
   core: {
-    builder: 'storybook-builder-vite',
+    builder: '@storybook/builder-vite',
+    disableTelemetry: true,
+  },
+  features: {
+    storyStoreV7: true,
   },
   viteFinal: async (config, { configType }) => {
     const { config: userConfig } = await loadConfigFromFile(
@@ -25,9 +29,9 @@ module.exports = ({
       plugins: [],
       resolve: {
         alias: {
-          '@nara-way/prologue': path.resolve(__dirname, '../src/lib'),
           '~': path.resolve(__dirname, '../src'),
-        }
+          '@nara-way/prologue': path.resolve(__dirname, '../src/lib'),
+        },
       },
     });
   },
