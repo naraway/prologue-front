@@ -27,8 +27,7 @@
     "strictPropertyInitialization": true,
     "useDefineForClassFields": true,
     "paths": {
-      "~/*": ["*"],
-      "@nara-way/prologue": ["lib"]
+      "~/*": ["*"]
     },
     "plugins": [{
       "transform": "typescript-transform-paths",
